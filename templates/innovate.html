@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ingenious Entertainment advisor</title>
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+<link type="text/css" rel="stylesheet" href="{% static 'css/style123.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="name">
+			<h1 class="quickFade delayTwo">Ingenious Entertainment Advisor</h1>
+			<h2 class="quickFade delayThree">AI Powered Movie Recommending System</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+		</div>
+		<div class="clear"></div> 
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+<section>
+			<div class="sectionTitle">
+				<h1>Introduction</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<p class="subDetails">Ingenious Entertainment Advisor is a system that seeks to predict or filter preferences according to the user’s interests. Taking cues from the inputs on movie preferences of the user it applies artificial intelligence, to explore and recommend similar movies enhancing the user experience. </p>
+					<p class="subDetails">This model works on the principle of Content-Based Filtering. Content-based filtering approaches use a series of discrete characteristics of an item in order to recommend additional items with similar properties. Content-based filtering methods are based specifically on item descriptions and seeks to match the profile of the user’s preferences. It recommends items based on historical data and interests.</p>
+			</article>
+		</div>
+		<div class="clear"></div>
+		</section>
+<section>
+			<div class="sectionTitle">
+				<h1>Background</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<p class="subDetails">Human life is fast evolving, with multiple avenues for development and the growth. Our busy lives have reduced time for leisure and entertainment. Movies are an easy medium to take your mind off troubles and relax. However, people are often confused about what they ought to watch. </p>
+					<br>
+					<p class="subDetails"><b><u>The Current Outlook-:</u></b>
+More often than not, it is believed that viewers will be likely to choose movies with high ratings and we assume they will pick those. 
+<br>
+<br><b><u>Fact-:</b></u>There is however no conclusive evidence that ratings will determine whether more viewers will choose to watch a movie.
+<br>
+<br><b><u>Reason-:</b></u> This is because people hink differently, have different interests and therefore like different actors, storyline and genres. A rating does not alone inspire a viewer to make a selection. Their moods and tastes also play a role.
+<br>
+<br><b><u>Observation-:</u></b> Often people just remember names of a few of their favourite movies and can’t make a selection. They are happy to be spoilt for choice and promoted by an intelligent source for guidance in line with their tastes. 
+<br>
+<br><b><u>Conclusion-:</u></b> Here’s when , Ingenious Entertainment Advisor steps in to solve this problem by using it’s artificial intelligence to recommend the best movie for us by considering some specifications given by a viewer.
+</p>
+			
+</div>
+		<div class="clear"></div>
+		</section>
+
+<section>
+			<div class="sectionTitle">
+				<h1>Explanation</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<iframe width="420" height="315"
+ src="{% static 'videos/advisor.mp4' %}"></iframe>
+					<br>
+			</article>
+		</div>
+		<div class="clear"></div>
+		</section>
+</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
+{% endblock %}

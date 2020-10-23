@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"my",
+				"my_context"
+			],
+			[
+				"Ba",
+				"BASE_DIR"
+			],
+			[
+				"tem",
+				"TEMPLATES"
+			],
+			[
+				"temp",
+				"TEMPLATES"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"home",
+				"home_view"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/aryanverma/Dev/trydjango/src/products/models.py",
+			"settings":
+			{
+				"buffer_size": 293,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aryanverma/Dev/trydjango",
+		"/Users/aryanverma/Dev/trydjango/src",
+		"/Users/aryanverma/Dev/trydjango/src/pages",
+		"/Users/aryanverma/Dev/trydjango/src/pages/__pycache__",
+		"/Users/aryanverma/Dev/trydjango/src/products",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango"
+	],
+	"file_history":
+	[
+		"/Users/aryanverma/Dev/trydjango/src/templates/contact.html",
+		"/Users/aryanverma/Dev/trydjango/src/templates/navbar.html",
+		"/Users/aryanverma/Dev/trydjango/src/templates/base.html",
+		"/Users/aryanverma/Dev/trydjango/src/templates/About.html",
+		"/Users/aryanverma/Dev/trydjango/src/pages/views.py",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/urls.py",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/trydjango/settings.py",
+		"/Users/aryanverma/Dev/trydjango/src/templates/home.html",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/trydjango/urls.py",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/pages/views.py",
+		"/Users/aryanverma/Dev/trydjango/src/templates/social.html",
+		"/Users/aryanverma/Dev/trydjango/src/templates/about.html",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/products/admin.py",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/products/models.py",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/products/migrations/0001_initial.py",
+		"/Users/aryanverma/Dev/trydjango/src/trydjango/manage.py",
+		"/Volumes/Sublime Text/trydjango"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"/Users/aryanverma/Dev/trydjango/src/templates"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"5351"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/Users/aryanverma/Dev/trydjango/src/trydjango/templates"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/aryanverma/Dev/trydjango/src/products/models.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

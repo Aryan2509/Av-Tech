@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<head>
+<title>Think</title>
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+<link type="text/css" rel="stylesheet" href="{% static 'css/style123.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="name">
+			<h1 class="quickFade delayTwo">Thinking Minds</h1>
+			<h2 class="quickFade delayThree">Think.Learn.Innovate</h2>
+		</div>
+		<div class="clear"></div> 
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+<section>
+<p>
+	<a href ="{% url 'think_ideas' %}" class="btn btn-primarily">Put in your ideas Here</a> 
+</p>
+			
+<article>
+
+<table class="table mb-0" bgcolor="#FFFFFF">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Author</th>
+			<th>Summary</th>
+			<th>Download</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for thought in thoughts %}
+		<tr>
+			<td>{{ thought.title }}</td>
+			<td>{{ thought.author }}</td>
+			<td>{{ thought.summary }}</td>	
+			<td><a href="{{ thought.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">
+			  	Download PDF
+			  </a>
+		    </td>	
+		</tr>
+
+	{% endfor %}
+	
+
+	</tbody>
+</table>
+</article>
+		<div class="clear"></div>
+		</section>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
+ {% endblock %}
+ 
