@@ -1,2 +1,2 @@
-web: gunicorn src:app
+web: gunicorn src.wsgi
 
