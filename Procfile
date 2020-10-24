@@ -1,1 +1,1 @@
-web: gunicorn avtech.wsgi
+web: gunicorn src.wsgi
