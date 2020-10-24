@@ -138,7 +138,7 @@ STATICFILES_DIRS = [
 ]
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-django_heroku,settings(locals())
+
 
 MEDIA_ROOT = os.path.join(BASE_DIR , "media")
 
@@ -149,3 +149,4 @@ LOGOUT_REDIRECT_URL = 'home'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+django_heroku.settings(locals())
