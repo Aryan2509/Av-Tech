@@ -1,1 +1,1 @@
-gunicorn src.wsgi:application
+web : gunicorn dentist.wsgi
