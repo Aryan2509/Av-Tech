@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     #own
     'avtech',
     'core',
+    'trydjango',
 ] 
 
 CRISPY_TEMPLATES_PACK = 'bootstrap4'
