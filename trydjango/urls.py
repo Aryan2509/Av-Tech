@@ -21,12 +21,13 @@ from django.conf.urls.static import static
 from avtech import views
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path('', views.home_view, name='home'),
     path('accounts/', include('django.contrib.auth.urls')),
     path('signup/', views.signup, name='signup'),
     path('about/', views.about_view,  name='about' ),
-    path('think/', views.think, name='think' ),
-    path('think/ideas', views.think_ideas, name='think_ideas' ),
+    path('activities/', views.think, name='activities' ),
+    path('innovate/other', views.think_ideas, name='other' ),
     path('innovate/', views.innovate_view, name='innovate' ),
     path('innovate/tunnel', views.tunnel_view, name='tunnel'),
     path('innovate/advisor', views.advisor_view, name='advisor'),

@@ -3,7 +3,7 @@
 
 {% block content %}
 <head>
-<title>Think</title>
+<title>Activities</title>
 <meta name="viewport" content="width=device-width"/>
 <meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
 <meta charset="UTF-8"> 
@@ -14,54 +14,125 @@
 <div id="cv" class="instaFade">
 	<div class="mainDetails">
 		<div id="name">
-			<h1 class="quickFade delayTwo" align="center">Thinking Minds</h1>
+			<h1 class="quickFade delayTwo" align="center">Activites</h1>
 			</div>
 			<div class="clear"></div>
-			<div class="mainDetails">
-		<div id="name">
-			<h3 class="quickFade delayThree">The following is a glimpse of the projects initatied by fellow innovators</h3>
-			<h3 class="quickFade delayThree">Click on the 'put in your ideas here' button to put forward your projects and get ready to collaborate with fellow innovators</h3>
-		</div>
+			
 		<div class="clear"></div> 
 	</div>
 	
 	<div id="mainArea" class="quickFade delayFive">
-<section>
-<p>
-	<a href ="{% url 'think_ideas' %}" class="btn btn-primarily">Put in your ideas Here</a> 
-</p>
-</section>
-<section>	
-<article>
-<table class="table mb-0" bgcolor="#FFFFFF">
-	<thead>
-		<tr>
-			<th>Title</th>
-			<th>Author</th>
-			<th>Summary</th>
-			<th>Download</th>
-		</tr>
-	</thead>
-	<tbody>
-	{% for thought in thoughts %}
-		<tr>
-			<td>{{ thought.title }}</td>
-			<td>{{ thought.author }}</td>
-			<td>{{ thought.summary }}</td>	
-			<td><a href="{{ thought.pdf.url }}" class="btn btn-primary btn-sm" target="_blank">
-			  	Download PDF
-			  </a>
-		    </td>	
-		</tr>
-
-	{% endfor %}
-	
-
-	</tbody>
-</table>
-</article>
-</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>GoenkanTechWeek</h1>
+				<br>
+				
+			</div>
+			
+			<div class="video-wrap">
+				<article>
+					<br>
+					<br>
+					<video width="420" height="315" controls>
+ <source src="{% static 'videos/close.mp4' %}" type="video/mp4" />
+ </video>
+					<br>
+					<br>
+					<br>
+			<h3>Acting as the President, I with the help of my club organized 6 competitions in the span of one week from 8th to 12th. The competitions were - snap it, D’zined, Boxed in, Appify, Gamathon & RoboCup. So, keeping the present conditions in mind, the theme was - “LOCKED IN THE DEN” </h3>
+			</article>
+		</div>
 		<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>GoenkanTechFest</h1>
+				<br>
+				<br>
+				
+			</div>
+			
+			<div class="video-wrap">
+				<article>
+					<br>
+				<br>
+					<video width="420" height="315" controls>
+ <source src="{% static 'videos/gtf.mp4' %}" type="video/mp4" />
+ </video>
+					<br>
+					<br>
+					<br>
+			<h3>After the success of the Goenkan Tech Week, we were called upon to organise the first and only Inter School of the year. The Goenkan Tech Fest with even more competition such as Techy Canvas and Tech Talk. We lived each event on our youtube channel.</h3>
+			<a href= 'https://www.youtube.com/channel/UCNFbn_CR3lc-rfksSd5CUnA' >Link to the channel</a>
+			</article>
+		</div>
+		<div class="clear"></div>
+		</section>
+		<div class="clear"></div>
+		<section>
+			<div class="sectionTitle">
+				<h1>GDGIMUN</h1>
+				<br>
+				
+			</div>
+			
+			<div class="video-wrap">
+				<article>
+					<video width="420" height="315" controls>
+ <source src="{% static 'videos/open.mp4' %}" type="video/mp4" />
+ </video>
+					<br>
+					<br>
+					<br>
+			<h3>Model United Nations is something which is my true passion. After being a part of the club since grade 8th and winning various accolades, I finally became the part of the Secretarait in 2019 and event the president of the club in 2020.</h3>
+			</article>
+		</div>
+		<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Scholastic Ceremony</h1>
+				<br>
+				<br>
+				
+			</div>
+			
+			<div class="video-wrap">
+				<article>
+					<br>
+				<br>
+					<video width="420" height="315" controls>
+ <source src="{% static 'videos/scholastic.mp4' %}" type="video/mp4" />
+ </video>
+					<br>
+					<br>
+					<br>
+			<h3>After working hard for 8 years and constant performing well in each and exam, I was awarded with the most prestigious award of my school : Scholastic Excellence Award</h3>
+			</article>
+		</div>
+		<div class="clear"></div>
+		</section>
+<section>
+			<div class="sectionTitle">
+				<h1>Behind the Scenes</h1>
+				<br>
+				<br>
+				
+			</div>
+			
+			<div class="video-wrap">
+				<article>
+					<video width="420" height="315" controls>
+ <source src="{% static 'videos/btss.mp4' %}" type="video/mp4" />
+ </video>
+					<br>
+					<br>
+					<br>
+			<h3>From days of constantly siting for days in the library organising the Model United Nations to being forced to sit inside our homes and collaborating through zoom and google meets for the Goenkan Tech Week and Goenkan Tech Fest, the start of the Goenkan Tech Guild was not that easy but we worked our way to becoming the one of the most prominent club in the year 2020.</h3>
+			</article>
+		</div>
+		<div class="clear"></div>
+		</section>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
